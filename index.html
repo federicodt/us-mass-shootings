@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Scrollama: Sticky Overlay Example" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>What the data says about mass shootings in the US?</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            #scrolly {
+                position: relative;
+                background-color: #000000;
+                padding: 1rem;
+            }
+    
+            article {
+                position: relative;
+                padding: 0;
+                /*max-width: 20rem;*/
+                margin: 0 auto;
+            }
+    
+            figure {
+                position: -webkit-sticky;
+                position: sticky;
+                left: 0;
+                width: 100%;
+                margin: 0;
+                -webkit-transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+                background-color: #8a8a8a;
+                z-index: 0;
+            }
+    
+            figure p {
+                text-align: center;
+                padding: 1rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                font-size: 8rem;
+                font-weight: 900;
+                color: #fff;
+            }
+    
+            .step {
+                margin: 0 auto 2rem auto;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0);
+                width: 50vw;
+            }
+    
+            .step:last-child {
+                margin-bottom: 0;
+            }
+    
+            .step.is-active p {
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                opacity: 0.9;
+            }
+    
+            .step p {
+                text-align: center;
+                padding: 1rem;
+                font-size: 1.5rem;
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                opacity: 0.9;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="section">
+            <div class="container content">
+                <p class="label">Society</p>
+                <h1 class="title">What the data says about mass shootings in the US?</h1>
+                <p class="subhed">The demand for organs is increasing, and waiting lists aren’t getting any shorter – particularly for Black Americans.</p>
+                <p class="byline">By <span>Federico D. Teijeiro</span></p>
+                <p class="date">July 21, 2023</p>
+
+        <img src="1.jpeg" width="300" alt="Mass Shootings">
+        
+        <p class="image__caption">Image digitally retouched by: <a href="https://twitter.com/federicodt" target="_blank">Federico D. Teijeiro</a>. Original image: <a href="https://www.wflx.com/2023/01/24/us-sees-spike-mass-shootings-begin-2023/" target="_blank">Fox 29 WFLX.</a></p>
+
+        <p class="article__text">In 57 years, 368 people were killed and 1,519 injured in mass shootings in the US.</p>
+
+        <p class="article__text">Currently, mass shootings in the United States are once again a major issue due to the increase in the number of incidents in recent years. From the year 1966 to day, mass shootings have been on a constant rise across the country. According to the data, five mass shootings occurred so far this year on US soil. That's 71.23 percent of the total number of incidents in 2022 and 62.5 in 2021.</p>
+
+        <p class="article__text">There is no single reason for this. However, there are several contributing factors, such as: easy access to firearms by citizens (due to relatively relaxed gun control laws in the US), increased mental health problems among the population, more people unemployed or in crisis (especially after the Coronavirus Pandemic); among others.</p>
+  
+        <div class="graph">
+            <iframe title="US Mass Shooting Incidents" aria-label="Map" id="datawrapper-chart-0namr" src="https://datawrapper.dwcdn.net/0namr/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="593" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+        
+        <p class="article__text">In overall, the centre of the United States recorded the least incidents. Although the states of: Texas, Colorado, Arkansay MiIssissippi stand out. In the east, among the most mass shootings suffered are: Kentucky, Florida, North Carolina, Pennsylvania; among others. In the west, the states of California, Nevada, Oregon and Washington.</p>
+
+        <div class="graph">
+            <div class="flourish-embed flourish-chart" data-src="visualisation/14491550"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+
+        <p class="article__text">In 1999, there was an increase in mass shootings compared to the previous 8 years. One of the reasons could be the notoriety that took the Columbine massacre on April 20. For the rest of the year, incidents escalated. In 2007, there was a record of deaths in mass shootings, which was only surpassed in 2016 and 2017, respectively. After a decline during 2020, by the measures of confinement by the Pandemic of the Coronavirus, the statistics rose again.</p>
+
+        <p class="article__text">As we saw, there are ups and downs in annual incidents. The same happens in the months of each year and also in the seasons. Although the summer months are usually a little more violent. With regard to the days of the week, something similar happens; however they stand out on Mondays, Tuesdays and Wednesdays over the rest.</p>
+
+        <div class="graph">
+            <iframe title="[ Insert title here ]" aria-label="Interactive line chart" id="datawrapper-chart-P9eE5" src="https://datawrapper.dwcdn.net/P9eE5/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+        </div>
+
+        <p class="article__text"></p>
+                          
+        <p class="article__text"></p>
+
+        <p class="article__text"></p>
+                        
+            </div>
+        </div>
+    
+        <main>
+            <section id="scrolly">
+                <figure>
+                    <img src="ms-1.jpg" height="615">                
+                    <img src="ms-2.png" height="615">             
+                    <img src="ms-3.jpg" height="615">
+                    <img src="ms-4.jpeg" height="615">            
+                </figure>
+                   
+                <article>
+                    <div class="step" data-step="1">
+                        <p>Based in The Violence Project database of 195 incidents since 1966, the 97 per cent of mass public shooters were men. On the other hand, two of the four female mass shooters partnered with a male to commit their crime.</p>
+                    </div>
+
+                    <div class="step" data-step="2">
+                        <p>According to Gun Violence Archive 44,191 Americans were killed by firearms in 2022, as shown in the map, surpassing the 41,500 in 2021. The east of the country recorded the highest number of incidents.</p>
+                    </div>
+                    
+                    <div class="step" data-step="3">
+                        <p>Sadly, in 2022, 6,116 children (aged 0-17) died as a result of gun violence, according to Gun Violence Archive. The organization says it is the highest number since it started keeping track in 2014.</p>
+                    </div>
+
+                    <div class="step" data-step="4">
+                        <p>The map shows the locations where firearms incidents occurred, from January 1 through June 19, 2023. In the first six months of the year, the number of people killed as a result of gun violence has risen to 8,294.</p>
+                    </div>
+                </article>
+            </section>
+                 
+            <section id="outro"></section>
+
+        </main>   
+
+        <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+	    <script src="../scrollama.min.js"></script>
+	    <script>
+		    // Using D3 for convenience.
+		    var main = d3.select("main");
+		    var scrolly = main.select("#scrolly");
+		    var figure = scrolly.select("figure");
+		    var article = scrolly.select("article");
+		    var step = article.selectAll(".step");
+
+		    // Initialize the Scrollama.
+		    var scroller = scrollama();
+
+		    // Generic window, resize listener event.
+		    function handleResize() {
+			    // 1. Update height of step elements.
+			    var stepH = Math.floor(window.innerHeight * 0.75);
+			    step.style("height", stepH + "px");
+
+			    var figureHeight = window.innerHeight * 0.75;
+			    var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
+			    figure
+				    .style("height", figureHeight + "px")
+				    .style("top", figureMarginTop + "px");
+
+			    // Tell Scrollama to update new element dimensions.
+			    scroller.resize();
+		    }
+
+		    // Scrollama event handlers.
+	    	function handleStepEnter(response) {
+		    	console.log(response);
+			    // response = { element, direction, index }
+
+			    // Add color to current step only.
+			    step.classed("is-active", function (d, i) {
+				    return i === response.index;
+			});
+
+			    // Update graphic based on step.
+			    /*figure.select("p").text(response.index + 1);*/
+
+                figure.selectAll('img.visible').classed('visible', false)
+                figure.selectAll('img').filter((d,i)=> i == response.index).classed('visible',true);
+                
+		    }
+
+                // Update graphic based on step
+                /*var img = document.getElementById('figure');
+                img.src = "ms-" + el.dataset.step + ".png", ".jpg", "jpeg";
+            }*/
+
+		    function init() {
+
+			    // Force a resize on load, to ensure proper dimensions are sent to Scrollama.
+			    handleResize();
+
+			    // Setup the scroller passing options. This will also initialize trigger observations.
+			    // Bind Scrollama event handlers (this can be chained like below).
+			    scroller
+				    .setup({
+					    step: "#scrolly article .step",
+					    offset: 0.75,
+					    debug: false
+				})
+				.onStepEnter(handleStepEnter);
+		    }
+		    // Kick things off.
+    		init();
+	    </script>
+
+        <div class="section">
+            <div class="container content">
+                
+                <h2 class="title">Methodology</h2>
+                
+                <p class="article__text"></p>
+                
+                <h3 class="title">What is a Mass Shooting?</h2>
+
+                <p class="article__text">There are currently many organizations that produce statistics regarding mass shootings. However, since there is no universal definition, each one has developed its own and the statistics are very dissimilar.</p>
+
+                <p class="article__text">For this article we decided to subscribe to <a href="https://www.theviolenceproject.org/methodology/" target="_blank"> The Violence Project's definition and methodology</a>, which is the most conservative of all. Below we detail the definition of mass shooting and the particularities for it to be registered by the organization.</p>
+
+                <p class="article__text">In addition, we use the <a href="https://www.gunviolencearchive.org/" target="_blank">Gun Violence Archive</a> database with respect to firearm deaths.</p>
+
+                <p class="article__text">There are several gun violence problems in the United States, each demanding our attention and action, including:</p>
+
+                <p class="article__text">Suicide by firearm, everyday gun violence (i.e., interpersonal conflicts and shootings related to gangs/groups or underlying crime), domestic shootings, unintentional shootings, police-involved shootings and mass public shootings. Some problems are more prevalent and pressing than others, but each has its own victim and offender profile, underlying mechanisms, and potential solutions.</p>
+
+                <p class="article__text">There is no universally accepted definition of a mass shooting. For a long time, mass shootings were studied as a variation on "mass killing", the generic term for multiple homicides that vary along what researchers agree are important dimensions: time, place, and method. For instance, someone who kills their victims in separate events is different from someone who kills them all at once. A person who kills in public is different from a person who kills in private (especially when private victims tend to be family members or intimate partners); and different still from a contract killer, bank robber, or gang member who kills in the commission of another crime. And an arsonist or bomber is different from a shooter.</p>
+
+                <p class="article__text">Some sources define a mass shooting as any incident in which three or more victims were shot and killed, not including the perpetrator, while others use a threshold of four or more killed. Other sources define a mass shooting as any incident in which four or more people were shot or injured, which greatly increases the incident count.  Some sources include domestic violence, gang conflict, drug trade disputes, or robberies in their numbers. At The Violence Project, we focus on mass public shootings, defined by the <a href="https://fas.org/sgp/crs/misc/R44126.pdf" target="_blank">Congressional Research Service</a> as follows:</p>
+
+                <p class="article__text"><em>“a multiple homicide incident in which four or more victims are murdered with firearms—not including the offender(s)—within one event, and at least some of the murders occurred in a public location or locations in close geographical proximity (e.g., a workplace, school, restaurant, or other public settings), and the murders are not attributable to any other underlying criminal activity or commonplace circumstance (armed robbery, criminal competition, insurance fraud, argument, or romantic triangle).”</em></p>
+
+                <p class="article__text">We acknowledge the limits of this definition. Every mass casualty event is a tragedy and many factors influence whether a threshold of four or more people killed is reached, including the accuracy of the shooter, the type and caliber of the firearm used, the number of rounds fired, the actions of first responders, proximity to the nearest hospital, and if/how many bullets hit vital organs. Any cut point is arbitrary, but this remains a widely agreed-upon standard. Further, the number of deaths is the strongest predictor of media coverage, which we use to help build our database.</p>
+
+                <p class="article__text"></p>
+
+
+
+
+            
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/federicodt" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/federicodt" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/federicodt" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/federicodt" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a></li>
+            </ul>
+            <!-- <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://www.goodreads.com/author/show/7703694.Federico_Dario_Teijeiro" target="_blank">About</a></li>
+                <li class="menu__item"><a class="menu__link" href="mailto:name@gmail.com" target="_blank">Contact</a></li>
+        
+            </ul> -->
+            <p>&copy;2023 Federico D. Teijeiro | All Rights Reserved</p>
+        </footer>
+        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+    </body>
+
+</html>

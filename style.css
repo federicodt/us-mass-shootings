@@ -1,0 +1,435 @@
+@font-face {
+    font-family: 'Postoni-Bold';
+    src: url('PostoniWide-Bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Postoni-Regular';
+    src: url('PostoniWide-Regular.woff2') format('woff2')
+}
+
+h1 {
+    font-family: "Postoni-Bold";
+    font-weight: 700;
+    font-size: 56px;
+    margin: 0;
+    line-height: 61.6px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 35.2px;
+    font-family: "Postoni-Bold";
+    margin-bottom: 16px;
+    margin-top: 48px;
+    margin: 0;
+    font-weight: 400;
+}
+
+h2.is-center {
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+
+h3 {
+    /* font-size: 23.8px;
+    line-height: 33.32px; */
+    font-family: "Geneva";    
+    font-size: 19.25px;
+    line-height: 23.1px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin: 0;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: "Geneva";
+    margin: 0;
+    font-weight: 400;
+}
+
+a {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #3586ff;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 400;
+}
+
+a, a:visited, a:hover {
+    color: #3586ff;
+    text-decoration: none;
+    border-bottom: 2px solid currentColor;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.article__text {
+    font-family: "Georgia";
+    line-height: 1.6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.article__text span {
+    font-family: "Geneva";
+    border: none;
+}
+
+.article__text:last-child {
+    margin-bottom: 24px;
+}
+
+.graph {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.content {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.label {
+    font-size: 14px;
+    font-family: "Geneva";
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    /* color: #111; */
+    color: #ff0000;
+    margin-top: 48px;
+}
+
+.subhed {
+    font-size: 20px;
+    font-family: "Geneva";
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.byline {
+    font-family: "Geneva";
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+span {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.date {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Geneva";
+    margin-bottom: 32px;
+}
+
+img {
+    width: 100%;
+}
+
+.image__caption {
+    font-family: "Geneva";
+    line-height: 1.25;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 32px;
+}
+
+.subtitle {
+    font-size: 17.5px;
+    line-height: 21px;
+    font-family: "Geneva";
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-family: "Geneva";
+}
+
+iframe {
+    padding-bottom: 24px;
+}
+
+/* @media (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 1280px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 24px;
+}
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #000000;
+    padding: 1rem;
+    padding-right: 5rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+  
+.nav__examples {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+  
+.nav__examples > * {
+    margin-right: 0.5rem;
+}
+  
+#intro {
+    max-width: 40rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+  
+.intro__hed {
+    font-size: 2em;
+    margin: 2rem auto 0.5rem auto;
+}
+  
+.intro__dek {
+    color: #8a8a8a;
+}
+  
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+  
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+  
+    20%,
+    60% {
+      transform: rotate(-25deg);
+    }
+  
+    40%,
+    80% {
+      transform: rotate(10deg);
+    }
+}
+  
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+  
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
+}
+  
+#intro {
+    margin-bottom: 320px;
+}
+  
+#outro {
+    height: 100px;
+}
+  
+@media (min-width: 840px) {
+    .nav__examples {
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+}
+
+/* For Scrollama to change images */
+
+figure img {
+    width: 100%;
+    /* max-width: 320px; */
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+figure img.visible {
+    display: block;
+}
+
+/* Footer */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #000000; /* #3586ff */
+    min-height: 100px;
+    padding: 20px /* 50px */;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    border-bottom: 0px;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #ffffff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+    100% {
+        background-positon-x: 0px;
+    }
+} */
