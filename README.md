@@ -1,12 +1,17 @@
-# **New York City Rats Health Problem.**
+# **US Mass shootings.**
   
 ## **Project objectives.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective of the project was to analyze the rodent problem, especially rats, in New York City through the databases available in NYC Open Data, to try to find out if the problem is getting better or worse.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The aim of the project was to select a widely used database from which many articles were written and try to find something new to tell. In addition, complement with other databases, such as firearms. In addition, the choice was based on the possibility of using maps, which I had not used in previous projects.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this purpose, the following data were analyzed: 
-1. ["Rats sightinghs"](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe), based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
-2. ["Rodent inspections"](https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj)
-3. ["Rats Heat Map"](https://data.cityofnewyork.us/Social-Services/Rats-Heat-Map/g642-4e55), also based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
+1. ["The Violence Project database"]([https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe](https://www.theviolenceproject.org/)).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I decided to use this database and not another, because it is the most conservative of all. They have a definition of mass shooting that, in my opinion, fits better with the objective of the project. Additionally, on their website, they explain the methodology used. based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
+3. ["Gun Violence Archive"]([https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj](https://www.gunviolencearchive.org/))
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gun Violence Archive [GVA] is an independent research and data collection organization and provides them in a comprehensive manner for the analysis of armed violence at the national level. A consolidated trail, the GVA pursued its mission and also began documenting the tens of thousands of firearms-related injuries and other related crimes. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a complement, I carried out traditional journalistic work of news archive, to know what was published on the subject.
 
 ## **Project findings.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We found that the rat problem is getting worse year after year. In 2021 and 2022, records were broken for rat sightings. This means more calls for complaints. In addition, we noticed that there used to be large concentrations in certain places and now it is more homogeneous. In other words, has spread, causing the problem to become more severe.
