@@ -16,16 +16,15 @@
 
 ## **Project findings.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find that mass shootings are increasing year after year since 2015, with the exception of 2020, due to the measures of closure by the Pandemic of the Coronavirus. Also, there is a correlation between the increase in incidents involving firearms and the increase in mass shootings. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, 2022 was a record year of deaths of children under 17 years of age by firearms. This year saw the highest number of deaths and injuries from firearms since the organization began recording them in 2014..
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On other side, On the other hand, I found that the first lady used the planes and helicopters of the presidential air fleet during the lockdown for the Coronavirus Pandemic. By law, the first lady cannot use them, because she does not hold any position in the National State. The only exception is if she travels with the President of the Nation and her presence is justified. In addition to all this, there is the aggravating circumstance that public funds were used.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the other hand, rat bites increased and with this, cases of lectospirosis and rat fever. In 2021, there were deaths due to this.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, 2022 was a record year of deaths of children under 17 years of age by firearms. This year saw the highest number of deaths and injuries from firearms since the organization began recording them in 2014. Besides, it was also a record for deaths of children under the age of 17.
 
 ## **Project data collection.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned earlier, the project was based on public information available on the NYC Open Data site.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned earlier, the project was based on The Violence Project database.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All files are available in the project folder on [GitHub]([https://github.com/federicodt/project1/](https://github.com/federicodt/nyc-rat-health-problem)).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Their records are not public, but anyone can request them. In my case, I sent an email asking for access. As I was not answered soon, I thought of scrapping the information. While I was coding they answered and granted me access to their records.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All data and records of The Gun Violence Archive [GVA] are publicly available on their [website](https://www.gunviolencearchive.org/charts-and-maps).
 
 ## **Project data analysis process & notebooks.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
