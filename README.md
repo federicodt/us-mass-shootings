@@ -8,7 +8,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I decided to use this database and not another, because it is the most conservative of all. They have a definition of mass shooting that, in my opinion, fits better with the objective of the project. Additionally, on their website, they explain the methodology used. based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
 
-2. ["Gun Violence Archive"]([https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj](https://www.gunviolencearchive.org/))
+2. ["Gun Violence Archive"]([https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj](https://www.gunviolencearchive.org/)).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gun Violence Archive [GVA] is an independent research and data collection organization and provides them in a comprehensive manner for the analysis of armed violence at the national level. A consolidated trail, the GVA pursued its mission and also began documenting the tens of thousands of firearms-related injuries and other related crimes. 
 
