@@ -15,7 +15,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a complement, I carried out traditional journalistic work of news archive, to know what was published on the subject.
 
 ## **Project findings.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We found that the rat problem is getting worse year after year. In 2021 and 2022, records were broken for rat sightings. This means more calls for complaints. In addition, we noticed that there used to be large concentrations in certain places and now it is more homogeneous. In other words, has spread, causing the problem to become more severe.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find that mass shootings are increasing year after year since 2015, with the exception of 2020, due to the measures of closure by the Pandemic of the Coronavirus. Also, there is a correlation between the increase in incidents involving firearms and the increase in mass shootings. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, 2022 was a record year of deaths of children under 17 years of age by firearms. This year saw the highest number of deaths and injuries from firearms since the organization began recording them in 2014..
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On other side, On the other hand, I found that the first lady used the planes and helicopters of the presidential air fleet during the lockdown for the Coronavirus Pandemic. By law, the first lady cannot use them, because she does not hold any position in the National State. The only exception is if she travels with the President of the Nation and her presence is justified. In addition to all this, there is the aggravating circumstance that public funds were used.
 
