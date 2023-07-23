@@ -15,7 +15,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a complement, I carried out traditional journalistic work of news archive, to know what was published on the subject.
 
 ## **Project findings.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find that mass shootings are increasing year after year since 2015, with the exception of 2020, due to the measures of closure by the Pandemic of the Coronavirus. Also, there is a correlation between the increase in incidents involving firearms and the increase in mass shootings. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find that mass shootings are increasing year after year since 2015, with the exception of 2020, due to the measures of closure by the Pandemic of the Coronavirus. Also, there is a correlation between the increase in incidents involving firearms and the increase in mass shootings.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, 2022 was a record year of deaths of children under 17 years of age by firearms. This year saw the highest number of deaths and injuries from firearms since the organization began recording them in 2014. Besides, it was also a record for deaths of children under the age of 17.
 
@@ -35,23 +35,19 @@
 
 ## **Learnings and obstacles during the project.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the previous project, my first one, I used an html template for the first time. This time, I copied one that I thought was appropriate for the project and modified it. I hadn't used notebooks before either. In this one I used about five to clean up, analyze, crisscross and generate information. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first challenge was all the work I had to do to find new information in a database as used as mass shootings. I did a lot of cross-referencing and analysis until I found a story to tell. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For plotting the graphics I used Matplotlib, Altair and Seaborn. None of them I had used before. In addition, I did some plotting with Datawrapper and Flourish. Also, I added a graph in D3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this project I chose a basic html template and modified it for use with Scrollama. It was a challenge to create the classes, in the style.css, encode in html and, above all, implement the Scrollama. The latter was not sensible and I had many difficulties because I wanted the images to change as well.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para este artículo tuve muchos problemas. Para empezar, el template de html me dio dificultades para modificarlo. Cada vez que ponía algo, otra cosa se rompía. Cuando inserté el gráfico hecho en D3, el 'base.css' colisionaba con el 'style.css'. Eso me dio unos cuantos dolores de cabeza.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the other hand, I had never made maps, not even in Datawrapper. This was a challenge I wanted to overcome in this project. In addition, I learned how to use "tooltips" and added additional information to the map and graphics. Another difficulty was that to graph the information on the map, it had to be very clean and accurate. That took me a while, because I’ve never done it before. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acerca de los gráficos, los que realicé en Altair, que fueron algunos, no todos pude embeberlos en 'index.html'. Probé muchas cosas, hasta que encontré en un foro que resulta que hay entre la última versión de Altair y Chrome. Al parecer, los últimos cambios del navegador de Google no permiten embeber ciertos gráficos en Altair.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding Altair, I had a hard time modifying it and configuring it to look the way I wanted. The Folium heat maps were also complicated. In all cases, it was the first time I used these tools.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The graphics of the Scrollama didn’t look good as well as I wanted. I would have liked to know Ilustrator and have it so that they looked better. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wanted to do a pretty deep analysis of the information, but time did not allow it. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I think the most difficult thing was the number of errors, obstacles and problems that arose throughout the project. But they also helped me to learn many things.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks to the help of TAs and my colleagues, from whom I also learned a lot, i could finished the project.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I think the most difficult thing was the number of errors, obstacles and problems that arose throughout the project. But they also helped me to learn.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I had more time, more skills and more confidence in them, I would have used API or scrapping techniques. Also, I would have made better graphics and a better web page.
 
 ## **Proyect link.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Are rats still a problem?](https://federicodt.github.io/nyc-rat-health-problem/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[US Mass shootings](https://federicodt.github.io/us-mass-shootings/)
