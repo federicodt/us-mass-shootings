@@ -27,11 +27,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All data and records of The Gun Violence Archive [GVA] are publicly available on their [website](https://www.gunviolencearchive.org/charts-and-maps).
 
 ## **Project data analysis process & notebooks.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used notebooks to organize, clean, select, analyze and graph information (mass shootings by state, by years, etc.) in order to extract what I needed for my project.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then used the notebooks to browse and analyze the available data. Also, to cross-reference and/or generate new DataFrames.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, I plotted the findings in Matplotlib, Altair, or Seaborn. The heat maps were made with Folium. Additionally, I made a graph in D3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then I drew the findings in Matplotlib, Altair or Seaborn. For the maps, I had to prepare DataFrames and made them with Datawrapper. 
 
 ## **Learnings and obstacles during the project.**
 
