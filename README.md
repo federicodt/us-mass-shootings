@@ -1,31 +1,37 @@
-# **New York City Rats Health Problem.**
+# **US Mass shootings.**
   
 ## **Project objectives.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective of the project was to analyze the rodent problem, especially rats, in New York City through the databases available in NYC Open Data, to try to find out if the problem is getting better or worse.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The aim of the project was to select a widely used database from which many articles were written and try to find something new to tell. In addition, complement with other databases, such as firearms. In addition, the choice was based on the possibility of using maps, which I had not used in previous projects.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this purpose, the following data were analyzed: 
-1. ["Rats sightinghs"](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe), based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
-2. ["Rodent inspections"](https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj)
-3. ["Rats Heat Map"](https://data.cityofnewyork.us/Social-Services/Rats-Heat-Map/g642-4e55), also based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
+1. [The Violence Project database](https://www.theviolenceproject.org/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I decided to use this database and not another, because it is the most conservative of all. They have a definition of mass shooting that, in my opinion, fits better with the objective of the project. Additionally, on their website, they explain the methodology used. based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
+
+2. [Gun Violence Archive](https://www.gunviolencearchive.org/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Gun Violence Archive [GVA] is an independent research and data collection organization and provides them in a comprehensive manner for the analysis of armed violence at the national level. A consolidated trail, the GVA pursued its mission and also began documenting the tens of thousands of firearms-related injuries and other related crimes. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a complement, I carried out traditional journalistic work of news archive, to know what was published on the subject.
 
 ## **Project findings.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We found that the rat problem is getting worse year after year. In 2021 and 2022, records were broken for rat sightings. This means more calls for complaints. In addition, we noticed that there used to be large concentrations in certain places and now it is more homogeneous. In other words, has spread, causing the problem to become more severe.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find that mass shootings are increasing year after year since 2015, with the exception of 2020, due to the measures of closure by the Pandemic of the Coronavirus. Also, there is a correlation between the increase in incidents involving firearms and the increase in mass shootings. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On other side, On the other hand, I found that the first lady used the planes and helicopters of the presidential air fleet during the lockdown for the Coronavirus Pandemic. By law, the first lady cannot use them, because she does not hold any position in the National State. The only exception is if she travels with the President of the Nation and her presence is justified. In addition to all this, there is the aggravating circumstance that public funds were used.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the other hand, rat bites increased and with this, cases of lectospirosis and rat fever. In 2021, there were deaths due to this.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, 2022 was a record year of deaths of children under 17 years of age by firearms. This year saw the highest number of deaths and injuries from firearms since the organization began recording them in 2014. Besides, it was also a record for deaths of children under the age of 17.
 
 ## **Project data collection.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned earlier, the project was based on public information available on the NYC Open Data site.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned earlier, the project was based on The Violence Project database.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All files are available in the project folder on [GitHub]([https://github.com/federicodt/project1/](https://github.com/federicodt/nyc-rat-health-problem)).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Their records are not public, but anyone can request them. In my case, I sent an email asking for access. As I was not answered soon, I thought of scrapping the information. While I was coding they answered and granted me access to their records.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All data and records of The Gun Violence Archive [GVA] are publicly available on their [website](https://www.gunviolencearchive.org/charts-and-maps).
 
 ## **Project data analysis process & notebooks.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used notebooks to organize, clean, select, analyze and graph information (mass shootings by state, by years, etc.) in order to extract what I needed for my project.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then used the notebooks to browse and analyze the available data. Also, to cross-reference and/or generate new DataFrames.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, I plotted the findings in Matplotlib, Altair, or Seaborn. The heat maps were made with Folium. Additionally, I made a graph in D3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then I drew the findings in Matplotlib, Altair or Seaborn. For the maps, I had to prepare DataFrames and made them with Datawrapper. 
 
 ## **Learnings and obstacles during the project.**
 
